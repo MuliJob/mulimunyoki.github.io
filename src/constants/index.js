@@ -156,7 +156,7 @@ const testimonials = [
     name: "Dotty",
     designation: "Owner",
     company: "Softlife Luxury Spa",
-    image: "http://softlifespa.com/static/img/dotty.jpeg",
+    image: "https://softlifespa.com/static/img/dotty.jpeg",
   },
 ];
 
