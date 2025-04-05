@@ -7,22 +7,21 @@ import {
   python,
   html,
   css,
-  reactjs,
-  redux,
   tailwind,
+  django,
   nodejs,
   mongodb,
+  postgres,
+  postman,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
+  taquana,
+  digicraft,
+  finest,
   jobit,
   tripguide,
-  threejs,
+  crime,
 } from "../assets";
 
 export const navLinks = [
@@ -37,10 +36,6 @@ export const navLinks = [
   {
     id: "contact",
     title: "Contact",
-  },
-  {
-    id: "resume",
-    title: "Resume",
   },
 ];
 
@@ -81,16 +76,12 @@ const technologies = [
     icon: python,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Django",
+    icon: django,
   },
   {
     name: "Node JS",
@@ -101,8 +92,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "PostgreSQL",
+    icon: postgres,
+  },
+  {
+    name: "Postman",
+    icon: postman,
   },
   {
     name: "git",
@@ -120,55 +115,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Developer Intern",
+    company_name: "Taquana",
+    icon: taquana,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024 - August 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with MongoDB Atlas Charts to visually represent data for the admin dashboard.",
+      "Assisted in implementing new user greeting email using nodemailer.",
+      "Contributed to the development of the user interface and back-end integration.",
+      "Participated in implementing MongoDB Atlas Search on the user interface.",
+      "Assisted in implementing real-time notification using pusher.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Digicraft Kenya",
+    icon: digicraft,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using Django and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -202,67 +170,112 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Finest",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A responsive web application platform that allows users to submit projects done to be reviewed by other users developed on Django, DRF, and TailwindCSS, featuring social login via Django Allauth, real-time review submissions with AJAX, and robust user authentication and rating systems.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "django",
+        color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "postgres",
+        color: "blue-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "restapi",
+        color: "text-red-500",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: finest,
+    live_url: "https://github.com/MuliJob/finest.github.io",
+    source_code_link: "https://github.com/MuliJob/finest.github.io",
   },
   {
-    name: "Job IT",
+    name: "Stylecube clothing",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a fully functional e-commerce platform using WooCommerce, enabling easy product management, secure checkout, and seamless integration with WordPress. Leveraged CMS flexibility for content updates and provided a responsive user experience across all devices.",
     tags: [
       {
-        name: "react",
+        name: "wordpress",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+          name: "woocommerce",
+          color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+          name: "css",
+          color: "pink-text-gradient",
+      },
+      {
+          name: "mysql",
+          color: "text-yellow-500",
+      },
+      {
+          name: "javascript",
+          color: "text-orange-500",
+      },
+      {
+          name: "php",
+          color: "text-gray-300",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    live_url: "https://stylecubeclothing.com/",
+    source_code_link: "https://stylecubeclothing.com",
   },
   {
-    name: "Trip Guide",
+    name: "E-security",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A fully feature web application that allows citizens to report crimes to the authorities providing the location of the incidences reported and insights through heatmaps and graphs.",
     tags: [
       {
-        name: "nextjs",
+        name: "flask",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+          name: "mysql",
+          color: "green-text-gradient",
+      },
+      {
+          name: "bootstrap",
+          color: "text-purple-500",
+      },
+      {
+          name: "javascript",
+          color: "text-yellow-500",
+      },
+    ],
+    image: crime,
+    live_url: "https://crimereportsystem.onrender.com/",
+    source_code_link: "https://github.com/MuliJob/Crime_Report_System",
+  },
+  {
+    name: "Fruitables",
+    description:
+      "Built a responsive e-commerce platform using Django for selling fruits and vegetables. Features include a dynamic product catalog, secure authentication, integrated payments, and an easy-to-use admin panel for product and order management. Optimized for seamless user experience across all devices.",
+    tags: [
+      {
+        name: "javascript",
+        color: "text-yellow-500",
+      },
+      {
+        name: "django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sass",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    live_url: "https://github.com/MuliJob/fruitables",
+    source_code_link: "https://github.com/MuliJob/fruitables",
   },
 ];
 
