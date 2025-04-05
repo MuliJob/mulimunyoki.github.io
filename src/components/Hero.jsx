@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { FaGithub, FaLinkedin, FaFileAlt } from 'react-icons/fa';
 
 const Hero = () => {
   return (
@@ -28,36 +29,36 @@ const Hero = () => {
             <br className="sm:block hidden" />
             interfaces and web applications
           </p>
-          <div className="flex sm:flex-row mt-7">
+          <div className="flex sm:flex-row mt-7 gap-2">
             <a
-                href="https://github.com/MuliJob"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+              href="https://github.com/MuliJob"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-full shadow-card"
             >
-                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                    GitHub
-                </button>
+              <button className="bg-transparent text-white border-2 border-[#151131] px-4 py-4 rounded-full transition duration-300 ease-in-out transform hover:scale-95 hover:border-[#4f66ff]">
+                <FaGithub size={24} />
+              </button>
             </a>
             <a
-                href="https://www.linkedin.com/in/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card"
+              href="https://www.linkedin.com/in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-full shadow-card"
             >
-                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                    LinkedIn
-                </button>
+              <button className="bg-transparent text-white border-2 border-[#151131] px-4 py-4 rounded-full transition duration-300 ease-in-out transform hover:scale-95 hover:border-[#4f66ff]">
+                <FaLinkedin size={24} />
+              </button>
             </a>
             <a
-                href="https://drive.google.com/file/d/11NW478i0KJed4raslDAFq-WXJzSklexc/view?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-[10px] shadow-card cursor-pointer"
+              href="https://drive.google.com/file/d/11NW478i0KJed4raslDAFq-WXJzSklexc/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-full shadow-card"
             >
-                <button className="bg-[#151131] text-white px-4 py-2 rounded-lg transition duration-300 ease-in-out transform hover:scale-95">
-                    <strong>CV</strong>
-                </button>
+              <button className="bg-transparent text-white border-2 border-[#151131] px-4 py-4 rounded-full transition duration-300 ease-in-out transform hover:scale-95 hover:border-[#4f66ff]">
+                <FaFileAlt size={24} />
+              </button>
             </a>
           </div>
         </div>
