@@ -41,7 +41,7 @@ const Hero = () => {
               </button>
             </a>
             <a
-              href="https://www.linkedin.com/in/"
+              href="https://www.linkedin.com/in/mulijob"
               target="_blank"
               rel="noopener noreferrer"
               className="mb-4 sm:mb-0 sm:mr-4 green-pink-gradient p-[2px] rounded-full shadow-card"
