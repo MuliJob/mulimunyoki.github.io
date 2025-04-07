@@ -1,6 +1,6 @@
 # Muli Munyoki | Portfolio
 
-This portfolio website is 3D animated developed on react for UI and three.js for rendering 3D models
+This portfolio website is 3D animated developed on react, three.js and framer motion
 
 ## Installation
 
