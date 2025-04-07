@@ -4,7 +4,7 @@ This portfolio website is 3D animated developed on react for UI and three.js for
 
 ## Installation
 
-- `git clone https://github.com/MuliJob/portfolio.git`
+- git clone https://github.com/MuliJob/portfolio.git
 - `npm install`
 - `npm run dev`
 
